@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    
+  <div class="card">
+    <h2>Adicionar Produto</h2>
+    <label for="produto">Produto:</label>
+    <input type="text" id="produto" placeholder="Ex: Arroz">
+
+    <label for="preco">Preço:</label>
+    <input type="number" id="preco" placeholder="Ex: 12.90">
+
+    <label for="mercado">Mercado:</label>
+    <input type="text" id="mercado" placeholder="Ex: Carrefour">
+
+    <label for="categoria">Categoria:</label>
+    <select id="categoria">
+      <option>Alimentos</option>
+      <option>Bebidas</option>
+      <option>Higiene</option>
+      <option>Limpeza</option>
+      <option>Outros</option>
+    </select>
+    <label>Imagem do Produto:</label>
+    <input type="file" id="imagemInput" accept="image/*">
+
+    <div id="preview" style="margin-top: 10px;">
+    <img id="imagemPreview" src="" alt="Prévia" style="max-width: 100%; display: none; border-radius: 8px; margin-top: 10px;">
+    </div>
+
+    <button id="adicionar">Adicionar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

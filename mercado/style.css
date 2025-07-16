@@ -1,0 +1,257 @@
+
+    body {
+      background: #f0f0f0;
+      font-family: Arial, sans-serif;
+  
+      align-items: center;
+      height: 100vh;
+       background: linear-gradient(to right, rgba(46, 72, 44, 1), rgba(111, 174, 106, 1));
+
+    }
+
+    .card {
+      background: linear-gradient(to right, rgba(46, 72, 44, 1), rgba(111, 174, 106, 1));
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      color: white;
+    }
+
+    .card h2 {
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .card label {
+      display: block;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .card input,
+    .card select {
+      width: 60%;
+      padding: 8px;
+      margin-top: 4px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+    }
+
+    .card button {
+      margin-top: 16px;
+      width: 100%;
+      padding: 10px;
+      background-color: #ffffff;
+      color: #2e482c;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .card button:hover {
+      background-color: #dcdcdc;
+    }
+     body {
+      font-family: Arial, sans-serif;
+      background: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #2e482c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .search-box {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .search-box input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .search-box button {
+      padding: 10px 16px;
+      background: #2e482c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .category-select {
+      margin-bottom: 20px;
+    }
+
+    .category-select select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 16px;
+    }
+
+    .product-category {
+      background: #2e482c;
+      color: white;
+      padding: 6px 12px;
+      display: inline-block;
+      border-radius: 8px;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .product-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+
+    .product-info {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .product-info .mercado {
+      font-weight: bold;
+      color: #555;
+    }
+
+    .product-info .produto {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .product-info .preco {
+      color: #2e482c;
+      font-size: 16px;
+    }
+  
+     body {
+      font-family: Arial, sans-serif;
+      background: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #2e482c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .search-box {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .search-box input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .search-box button {
+      padding: 10px 16px;
+      background: #2e482c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .category-select {
+      margin-bottom: 20px;
+    }
+
+    .category-select select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 16px;
+    }
+
+    .product-category {
+      background: #2e482c;
+      color: white;
+      padding: 6px 12px;
+      display: inline-block;
+      border-radius: 8px;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .product-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+
+    .product-info {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .product-info .mercado {
+      font-weight: bold;
+      color: #555;
+    }
+
+    .product-info .produto {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .product-info .preco {
+      color: #2e482c;
+      font-size: 16px;
+    }
